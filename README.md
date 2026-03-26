@@ -21,7 +21,7 @@
 
 ---
 
-## 📖 项目简介 | Project Overview {#项目简介--project-overview}
+## 📖 项目简介 | Project Overview{#项目简介--project-overview}
 
 ### 🇨🇳 中文
 本项目严格遵循《T/CHIA 48-2024 精神影像脑结构功能成像技术与信息处理规范》，实现了脑磁共振影像从**原始DICOM数据格式转换**到**多模态定量分析、脑连接组构建、图论分析与可视化**的全流程自动化处理。
