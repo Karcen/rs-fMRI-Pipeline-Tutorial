@@ -786,3 +786,7 @@ This section strictly follows the *T/CHIA 48-2024 Specification for Psychoradiol
 ## 📚 参考文献 | References
 
 1. T/CHIA 48-2024, 精神影像脑结构功能成像技术与信息处理规范[S]. 中国卫生信息与健康医疗大数据学会, 2024.
+
+📜 本项目采用 MIT开源协议，允许个人、企业自由使用、修改、分发本项目代码，无需支付授权费用，仅需在分发时保留原作者版权声明即可。
+
+📜 This project adopts theMIT Open Source License, which allows individuals and enterprises to freely use, modify, and distribute the project code without paying authorization fees. It is only required to retain the original author's copyright notice when distributing.
