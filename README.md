@@ -16,7 +16,7 @@
 8. [FreeSurfer模型导出与合并工具 | FreeSurfer Model Export & Merge Tools](#freerfer模型导出与合并工具--freerfer-model-export--merge-tools)
 9. [扫描参数与质控规范 | Scan Parameters & Quality Control Standards](#扫描参数与质控规范--scan-parameters--quality-control-standards)
 10. [常见问题 | FAQ](#常见问题--faq)
-11. [输出图片结果 | Figures outputs](#figures_outputs)
+11. [输出图片结果 | Figure outputs](#figure_outputs)
 12. [参考文献 | References](#参考文献--references)
 
 ---
@@ -763,7 +763,7 @@ This section strictly follows the *T/CHIA 48-2024 Specification for Psychoradiol
 
 ---
 
-## 输出图片结果 Figures outputs 
+## 输出图片结果 Figure outputs 
 <img width="2628" height="2180" alt="summary_dashboard" src="https://github.com/user-attachments/assets/921bfb4c-e8b9-415d-90f8-b2eea73f78bc" />
 <img width="1335" height="729" alt="rich_club" src="https://github.com/user-attachments/assets/f53bce52-1de6-4a54-877c-7355eb8b761a" />
 <img width="2862" height="2468" alt="network_analysis_dashboard" src="https://github.com/user-attachments/assets/ed3b581b-a5ad-4b81-bca5-34e78bd58b1b" />
