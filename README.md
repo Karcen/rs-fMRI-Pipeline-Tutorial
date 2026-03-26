@@ -16,11 +16,12 @@
 8. [FreeSurfer模型导出与合并工具 | FreeSurfer Model Export & Merge Tools](#freerfer模型导出与合并工具--freerfer-model-export--merge-tools)
 9. [扫描参数与质控规范 | Scan Parameters & Quality Control Standards](#扫描参数与质控规范--scan-parameters--quality-control-standards)
 10. [常见问题 | FAQ](#常见问题--faq)
-11. [参考文献 | References](#参考文献--references)
+11. [输出图片结果 | Figures outputs](#figures_outputs)
+12. [参考文献 | References](#参考文献--references)
 
 ---
 
-## 📖 项目简介 | Project Overview
+## 📖 项目简介 | Project Overview {#项目简介--project-overview}
 
 ### 🇨🇳 中文
 本项目严格遵循《T/CHIA 48-2024 精神影像脑结构功能成像技术与信息处理规范》，实现了脑磁共振影像从**原始DICOM数据格式转换**到**多模态定量分析、脑连接组构建、图论分析与可视化**的全流程自动化处理。
@@ -48,7 +49,7 @@ This project strictly follows the *T/CHIA 48-2024 Specification for structural a
 
 ---
 
-## 🛠️ 环境搭建 | Environment Setup
+## 🛠️ 环境搭建 | Environment Setup {#环境搭建--environment-setup}
 
 ### 🇨🇳 中文
 本项目运行依赖**系统级工具**与**Python第三方库**，以下为分系统的分步安装指南。
@@ -195,7 +196,7 @@ pip install plotly
 
 ---
 
-## 📁 数据准备与规范 | Data Preparation & Specification
+## 📁 数据准备与规范 | Data Preparation & Specification {#数据准备与规范--data-preparation--specification}
 
 ### 🇨🇳 中文
 #### 1. 原始DICOM数据目录结构
@@ -270,7 +271,7 @@ The following standard templates and atlas files are required (uploaded to repos
 
 ---
 
-## 🔄 DICOM转NIfTI工具使用指南 | DICOM to NIfTI Tool Guide
+## 🔄 DICOM转NIfTI工具使用指南 | DICOM to NIfTI Tool Guide {#dicom转nifti工具使用指南--dicom-to-nifti-tool-guide}
 
 ### 🇨🇳 中文
 **脚本文件：** `DICOM2NIfTI.py`
@@ -348,7 +349,7 @@ python DICOM2NIfTI.py
 
 ---
 
-## 🧠 多模态脑连接分析流水线使用指南 | Multimodal Brain Connectivity Pipeline Guide
+## 🧠 多模态脑连接分析流水线使用指南 | Multimodal Brain Connectivity Pipeline Guide {#多模态脑连接分析流水线使用指南--multimodal-brain-connectivity-pipeline-guide}
 
 ### 🇨🇳 中文
 **脚本文件：** `multimodal_brain_connectivity_pipeline.py`
@@ -463,7 +464,7 @@ python multimodal_brain_connectivity_pipeline.py
 
 ---
 
-## 📊 脑区激活分析工具使用指南 | Brain Region Activation Analysis Guide
+## 📊 脑区激活分析工具使用指南 | Brain Region Activation Analysis Guide {#脑区激活分析工具使用指南--brain-region-activation-analysis-guide}
 
 ### 🇨🇳 中文
 **脚本文件：** `MNI152_zALFF_Brain_Region_Activation_Analysis.py`
@@ -517,7 +518,7 @@ python MNI152_zALFF_Brain_Region_Activation_Analysis.py
 
 ---
 
-## 🎨 3D脑网络可视化工具使用指南 | 3D Brain Network Visualization Guide
+## 🎨 3D脑网络可视化工具使用指南 | 3D Brain Network Visualization Guide {#3d脑网络可视化工具使用指南--3d-brain-network-visualization-guide}
 
 ### 🇨🇳 中文
 **脚本文件：** `plot_3D_brain_network_AAL166.py`
@@ -569,7 +570,7 @@ python plot_3D_brain_network_AAL166.py
 
 ---
 
-## 📐 FreeSurfer模型导出与合并工具 | FreeSurfer Model Export & Merge Tools
+## 📐 FreeSurfer模型导出与合并工具 | FreeSurfer Model Export & Merge Tools {#freesurfer模型导出与合并工具--freesurfer-model-export--merge-tools}
 
 本项目地址：https://github.com/Karcen/freesurfer-recon-freeview-3dstats
 
@@ -649,7 +650,7 @@ python merge_colored_brain_ply.py
 
 ---
 
-## 📋 扫描参数与质控规范 | Scan Parameters & Quality Control Standards
+## 📋 扫描参数与质控规范 | Scan Parameters & Quality Control Standards {#扫描参数与质控规范--scan-parameters--quality-control-standards}
 
 ### 🇨🇳 中文
 本章节内容严格遵循《T/CHIA 48-2024 精神影像脑结构功能成像技术与信息处理规范》。
@@ -721,7 +722,7 @@ This section strictly follows the *T/CHIA 48-2024 Specification for Psychoradiol
 
 ---
 
-## ❓ 常见问题 | FAQ
+## ❓ 常见问题 | FAQ {#常见问题--faq}
 
 ### 🇨🇳 中文
 #### Q1: 运行DICOM2NIfTI.py时提示"dcm2niix: command not found"
@@ -763,6 +764,26 @@ This section strictly follows the *T/CHIA 48-2024 Specification for Psychoradiol
 
 ---
 
-## 📚 参考文献 | References
+## 输出图片结果 Figures outputs {#figures_outputs}
+<img width="2628" height="2180" alt="summary_dashboard" src="https://github.com/user-attachments/assets/921bfb4c-e8b9-415d-90f8-b2eea73f78bc" />
+<img width="1335" height="729" alt="rich_club" src="https://github.com/user-attachments/assets/f53bce52-1de6-4a54-877c-7355eb8b761a" />
+<img width="2862" height="2468" alt="network_analysis_dashboard" src="https://github.com/user-attachments/assets/ed3b581b-a5ad-4b81-bca5-34e78bd58b1b" />
+<img width="3245" height="1067" alt="multimodal_comparison" src="https://github.com/user-attachments/assets/979c68a9-b8e2-4d97-a085-1c0a2d15e98b" />
+<img width="2327" height="1937" alt="ica_networks_DMN_SAL_CEN" src="https://github.com/user-attachments/assets/e4f39a8e-2d3a-4905-8b60-a1bd7b24a674" />
+<img width="1286" height="766" alt="hub_regions_bar" src="https://github.com/user-attachments/assets/80a6cf98-ecb2-44ec-aeaf-e97ca2c90eb4" />
+<img width="3588" height="707" alt="glass_brain_seed_fc" src="https://github.com/user-attachments/assets/9a654535-44e8-442d-82bd-6da49eb23d8d" />
+<img width="1336" height="1029" alt="fc_sc_scatter" src="https://github.com/user-attachments/assets/986bad1e-e82c-458e-ba24-b1a73713f7d2" />
+<img width="2175" height="2082" alt="fc_heatmap" src="https://github.com/user-attachments/assets/8b35b3b5-4b1f-4606-8d7e-6b648b48a9e0" />
+<img width="2067" height="507" alt="dti_fa_map" src="https://github.com/user-attachments/assets/3051abf9-bf91-43ae-9436-722290d00453" />
+<img width="1934" height="738" alt="degree_distribution" src="https://github.com/user-attachments/assets/56284b8b-9817-473d-9743-75dd99fe3b96" />
+<img width="1890" height="1478" alt="community_graph" src="https://github.com/user-attachments/assets/1c305ab2-71fb-4938-afe1-b67cef5e3b6b" />
+<img width="2201" height="2083" alt="community_fc_heatmap" src="https://github.com/user-attachments/assets/363b5492-6001-44d4-bc8a-530915c0b036" />
+<img width="1914" height="1928" alt="circular_connectivity" src="https://github.com/user-attachments/assets/0de9766b-6364-4edc-8a92-4efb82fceb7e" />
+<img width="1580" height="1292" alt="centrality_radar" src="https://github.com/user-attachments/assets/0d3a61d4-2558-4605-97c6-4dff75dda1a1" />
+<img width="1992" height="1478" alt="brain_network_graph" src="https://github.com/user-attachments/assets/6f7b16cc-09f1-43a4-a3b5-505349491a81" />
+<img width="2685" height="1785" alt="activation_maps" src="https://github.com/user-attachments/assets/9342d4b3-3175-408a-8866-14fe216f3b81" />
+
+
+## 📚 参考文献 | References {#参考文献--references}
 
 1. T/CHIA 48-2024, 精神影像脑结构功能成像技术与信息处理规范[S]. 中国卫生信息与健康医疗大数据学会, 2024.
